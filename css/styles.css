@@ -1,0 +1,169 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted;
+  width: 4%;
+  border-color: #dbdbdb;
+  border-width: 6px 0 0 0;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+.dog {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.drawing {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fine {
+  height: 400px
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: blue;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.middle {
+  margin: 100px 0;
+}
+
+.bottom {
+  background-color: #66bfbf;
+  padding: 50px 0 50px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-p {
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.btn {
+  background: #2c8ac9;
+  background-image: -webkit-linear-gradient(top, #2c8ac9, #2b61b8);
+  background-image: -moz-linear-gradient(top, #2c8ac9, #2b61b8);
+  background-image: -ms-linear-gradient(top, #2c8ac9, #2b61b8);
+  background-image: -o-linear-gradient(top, #2c8ac9, #2b61b8);
+  background-image: linear-gradient(to bottom, #2c8ac9, #2b61b8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 17px 8px 17px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cf2fc;
+  background-image: -webkit-linear-gradient(top, #3cf2fc, #56bbed);
+  background-image: -moz-linear-gradient(top, #3cf2fc, #56bbed);
+  background-image: -ms-linear-gradient(top, #3cf2fc, #56bbed);
+  background-image: -o-linear-gradient(top, #3cf2fc, #56bbed);
+  background-image: linear-gradient(to bottom, #3cf2fc, #56bbed);
+  text-decoration: none;
+}
+/* CSS POSITIONING
+default rules:
+1. content is everything
+2. order comes from code
+3. children sit on parents
+
+Static *default*
+relative: where it would be if static, adding margin relative to where element should've been
+absolute: adding margin to the parent element, doesnt have to be the body
+fixed: element stays still on screen despite scrolling
+*/
